@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 563.03 306.61">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6, .cls-9, .cls-11, .cls-29, .cls-17, .cls-19, .cls-30, .cls-20, .cls-23, .cls-31, .cls-27, .cls-28 {
+        stroke: #010101;
+      }
+
+      .cls-2, .cls-5, .cls-32, .cls-29, .cls-24 {
+        stroke-width: .89px;
+      }
+
+      .cls-2, .cls-6, .cls-9, .cls-11, .cls-20, .cls-23 {
+        fill: #010101;
+      }
+
+      .cls-33 {
+        font-size: 22.15px;
+      }
+
+      .cls-33, .cls-34, .cls-16, .cls-21, .cls-35 {
+        fill: #231f20;
+      }
+
+      .cls-33, .cls-34, .cls-35 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-3 {
+        stroke-width: 4.54px;
+      }
+
+      .cls-3, .cls-36, .cls-4, .cls-5, .cls-37, .cls-7, .cls-10, .cls-32, .cls-13, .cls-14, .cls-15, .cls-17, .cls-19, .cls-38, .cls-22, .cls-26, .cls-27, .cls-28 {
+        fill: #fff;
+      }
+
+      .cls-34 {
+        font-size: 14.81px;
+      }
+
+      .cls-36, .cls-5, .cls-7, .cls-32, .cls-15, .cls-18, .cls-38, .cls-22, .cls-24, .cls-25 {
+        stroke: #fff;
+      }
+
+      .cls-36, .cls-37, .cls-32, .cls-29, .cls-38, .cls-30, .cls-31 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-36, .cls-11, .cls-15, .cls-18, .cls-30 {
+        stroke-width: .92px;
+      }
+
+      .cls-39 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        stroke-width: 4.91px;
+      }
+
+      .cls-6, .cls-38, .cls-22 {
+        stroke-width: 5.28px;
+      }
+
+      .cls-40 {
+        fill: #fbb040;
+        opacity: .29;
+      }
+
+      .cls-41 {
+        letter-spacing: 0em;
+      }
+
+      .cls-42 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-43 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-37, .cls-8, .cls-10, .cls-13, .cls-14, .cls-16, .cls-21, .cls-26 {
+        stroke: #231f20;
+      }
+
+      .cls-37, .cls-8, .cls-10, .cls-28 {
+        stroke-width: 4.28px;
+      }
+
+      .cls-7 {
+        stroke-width: 4.8px;
+      }
+
+      .cls-8 {
+        fill: #414042;
+      }
+
+      .cls-44 {
+        letter-spacing: 0em;
+      }
+
+      .cls-45 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-9 {
+        stroke-width: 5.76px;
+      }
+
+      .cls-12 {
+        stroke: #f7941d;
+      }
+
+      .cls-12, .cls-13, .cls-16, .cls-23 {
+        stroke-width: 2.4px;
+      }
+
+      .cls-12, .cls-29, .cls-18, .cls-30, .cls-24, .cls-25, .cls-31 {
+        fill: none;
+      }
+
+      .cls-14 {
+        stroke-width: 3.42px;
+      }
+
+      .cls-46 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-17, .cls-25 {
+        stroke-width: .96px;
+      }
+
+      .cls-19 {
+        stroke-width: 1.14px;
+      }
+
+      .cls-47 {
+        letter-spacing: 0em;
+      }
+
+      .cls-48 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-49 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        stroke-width: 6.24px;
+      }
+
+      .cls-21 {
+        stroke-width: 1.92px;
+      }
+
+      .cls-26 {
+        stroke-width: 4.09px;
+      }
+
+      .cls-35 {
+        font-size: 25.08px;
+      }
+
+      .cls-31 {
+        stroke-width: .48px;
+      }
+
+      .cls-27 {
+        stroke-width: 1.17px;
+      }
+    </style>
+  </defs>
+  <g id="art_board" data-name="art board">
+    <g id="perfume_1" data-name="perfume 1">
+      <rect class="cls-8" x="277.58" y="112.66" width="41.38" height="30.26"/>
+      <path class="cls-10" d="m346.31,301.97l-47.42,2.48c-.71.04-1.42.04-2.13,0l-44.02-2.42c-10.54-.58-18.8-9.3-18.8-19.86v-125.72c0-10.35,7.94-18.97,18.25-19.82l25.92-2.14c13.12-1.08,26.31-1.11,39.43-.08l29.28,2.29c10.35.81,18.34,9.45,18.34,19.83v125.58c0,10.58-8.29,19.31-18.85,19.86Z"/>
+      <rect class="cls-10" x="280.67" y="90.52" width="34.28" height="20.9" rx="1.05" ry="1.05"/>
+      <rect class="cls-21" x="253.17" y="79.46" width="86.7" height="31.05" rx="4.47" ry="4.47"/>
+      <rect class="cls-16" x="268.17" y="108.38" width="60.92" height="15.23" rx="2.19" ry="2.19"/>
+      <rect class="cls-12" x="268.17" y="163.92" width="60.92" height="68.09"/>
+      <circle class="cls-13" cx="321.59" cy="223.68" r="2.31"/>
+      <path class="cls-14" d="m342.91,292.69s13.89-3.71,13.42-14.82"/>
+      <path class="cls-14" d="m245.16,277.87s-1.07,12.97,11.05,12.97"/>
+      <path class="cls-14" d="m346.6,144.93s7.41.46,7.41,9.26"/>
+      <path class="cls-14" d="m253.96,144.93s-7.41,3.71-6.48,9.26"/>
+      <ellipse class="cls-20" cx="314.26" cy="184.3" rx="5.39" ry="6.15"/>
+      <ellipse class="cls-6" cx="282.12" cy="185.08" rx="5.39" ry="6.15"/>
+      <ellipse class="cls-17" cx="298.66" cy="196.52" rx="18.7" ry="17.75"/>
+      <ellipse class="cls-23" cx="306.32" cy="193.72" rx="4.78" ry="6.01"/>
+      <ellipse class="cls-23" cx="290.33" cy="193.72" rx="4.78" ry="6.01"/>
+      <ellipse class="cls-7" cx="290.33" cy="193.95" rx="2.32" ry="3.49"/>
+      <ellipse class="cls-22" cx="306.55" cy="193.95" rx="2.32" ry="3.49"/>
+      <ellipse class="cls-9" cx="306.55" cy="193.95" rx="1.65" ry="2.43"/>
+      <ellipse class="cls-9" cx="290.33" cy="193.72" rx="1.65" ry="2.43"/>
+      <ellipse class="cls-25" cx="314.43" cy="184.36" rx="3.89" ry="4.98"/>
+      <ellipse class="cls-25" cx="282.39" cy="185.36" rx="3.89" ry="4.98"/>
+      <path class="cls-31" d="m298.48,200.99v3.25s-2.5,2.4-3.92,0"/>
+      <path class="cls-31" d="m298.81,200.99v3.25s2.5,2.4,3.92,0"/>
+      <circle class="cls-38" cx="306.57" cy="193.75" r=".56"/>
+      <circle class="cls-38" cx="290.31" cy="193.19" r=".56"/>
+      <text class="cls-33" transform="translate(259.61 256.09)"><tspan class="cls-45" x="0" y="0">L</tspan><tspan x="10.14" y="0">o</tspan><tspan class="cls-42" x="22.3" y="0">r</tspan><tspan x="29.32" y="0">en</tspan><tspan class="cls-41" x="52.71" y="0">z</tspan><tspan class="cls-47" x="62.03" y="0">o</tspan></text>
+    </g>
+    <g id="perfume_2" data-name="perfume 2">
+      <rect class="cls-28" x="402.97" y="36.34" width="18.89" height="14.11"/>
+      <rect class="cls-28" x="392.97" y="48.57" width="38.9" height="26.51"/>
+      <rect class="cls-4" x="378.07" y="2.46" width="68.69" height="57.81" rx="15.32" ry="15.32"/>
+      <rect class="cls-26" x="368.32" y="61.83" width="86.81" height="240.96" rx="14.14" ry="14.14"/>
+      <ellipse class="cls-2" cx="434.88" cy="146.76" rx="7.85" ry="8.94"/>
+      <ellipse class="cls-2" cx="388.13" cy="147.9" rx="7.85" ry="8.94"/>
+      <ellipse class="cls-19" cx="412.2" cy="164.52" rx="27.19" ry="25.81"/>
+      <ellipse class="cls-2" cx="423.33" cy="160.46" rx="6.95" ry="8.74"/>
+      <ellipse class="cls-2" cx="400.08" cy="160.46" rx="6.95" ry="8.74"/>
+      <ellipse class="cls-5" cx="400.08" cy="160.78" rx="3.37" ry="5.08"/>
+      <ellipse class="cls-5" cx="423.66" cy="160.78" rx="3.37" ry="5.08"/>
+      <ellipse class="cls-2" cx="423.66" cy="160.78" rx="2.4" ry="3.54"/>
+      <ellipse class="cls-2" cx="400.08" cy="160.46" rx="2.4" ry="3.54"/>
+      <ellipse class="cls-24" cx="435.12" cy="146.84" rx="5.65" ry="7.24"/>
+      <ellipse class="cls-24" cx="388.54" cy="148.3" rx="5.65" ry="7.24"/>
+      <path class="cls-29" d="m411.93,171.02v4.72s-3.64,3.48-5.7,0"/>
+      <path class="cls-29" d="m412.42,171.02v4.72s3.64,3.48,5.7,0"/>
+      <circle class="cls-32" cx="423.7" cy="160.5" r=".81"/>
+      <circle class="cls-32" cx="400.04" cy="159.68" r=".81"/>
+      <text class="cls-34" transform="translate(388.51 211.54)"><tspan class="cls-43" x="0" y="0">L</tspan><tspan x="6.78" y="0">o</tspan><tspan class="cls-48" x="14.92" y="0">r</tspan><tspan x="19.61" y="0">en</tspan><tspan class="cls-39" x="35.25" y="0">z</tspan><tspan x="41.49" y="0">o</tspan></text>
+    </g>
+    <g id="perfume_3" data-name="perfume 3">
+      <rect class="cls-28" x="498.62" y="88.39" width="22.28" height="13.2"/>
+      <rect class="cls-28" x="490.44" y="102.41" width="38.63" height="28.88"/>
+      <rect class="cls-3" x="458.75" y="122.07" width="102.01" height="180.18" rx="21.52" ry="21.52"/>
+      <rect class="cls-40" x="467" y="136.64" width="85.51" height="151.03" rx="21.52" ry="21.52"/>
+      <ellipse class="cls-11" cx="533.76" cy="184.52" rx="8.06" ry="9.19"/>
+      <ellipse class="cls-11" cx="485.75" cy="185.68" rx="8.06" ry="9.19"/>
+      <ellipse class="cls-27" cx="510.47" cy="202.76" rx="27.93" ry="26.51"/>
+      <ellipse class="cls-11" cx="521.91" cy="198.59" rx="7.14" ry="8.98"/>
+      <ellipse class="cls-11" cx="498.02" cy="198.59" rx="7.14" ry="8.98"/>
+      <ellipse class="cls-15" cx="498.02" cy="198.92" rx="3.47" ry="5.22"/>
+      <ellipse class="cls-15" cx="522.24" cy="198.92" rx="3.47" ry="5.22"/>
+      <ellipse class="cls-11" cx="522.24" cy="198.92" rx="2.46" ry="3.63"/>
+      <ellipse class="cls-11" cx="498.02" cy="198.59" rx="2.46" ry="3.63"/>
+      <ellipse class="cls-18" cx="534.01" cy="184.6" rx="5.8" ry="7.43"/>
+      <ellipse class="cls-18" cx="486.17" cy="186.1" rx="5.8" ry="7.43"/>
+      <path class="cls-30" d="m510.2,209.44v4.85s-3.74,3.58-5.86,0"/>
+      <path class="cls-30" d="m510.69,209.44v4.85s3.74,3.58,5.86,0"/>
+      <circle class="cls-36" cx="522.28" cy="198.63" r=".84"/>
+      <circle class="cls-36" cx="497.98" cy="197.79" r=".84"/>
+      <text class="cls-34" transform="translate(485.75 247.36)"><tspan class="cls-43" x="0" y="0">L</tspan><tspan x="6.78" y="0">o</tspan><tspan class="cls-48" x="14.92" y="0">r</tspan><tspan x="19.61" y="0">en</tspan><tspan class="cls-39" x="35.25" y="0">z</tspan><tspan x="41.49" y="0">o</tspan></text>
+    </g>
+    <g id="perfume_4" data-name="perfume 4">
+      <polygon class="cls-37" points="207.37 60.76 2.14 60.76 38.95 36.34 230.79 36.34 207.37 60.76"/>
+      <rect class="cls-37" x="2.14" y="61.67" width="207.46" height="240.42"/>
+      <polygon class="cls-37" points="227.2 277.87 209.6 302.09 209.6 60.27 230.79 36.34 227.2 277.87"/>
+      <g>
+        <ellipse class="cls-11" cx="135.89" cy="153.24" rx="8.06" ry="9.19"/>
+        <ellipse class="cls-11" cx="87.88" cy="154.41" rx="8.06" ry="9.19"/>
+        <ellipse class="cls-27" cx="112.59" cy="171.48" rx="27.93" ry="26.51"/>
+        <ellipse class="cls-11" cx="124.03" cy="167.31" rx="7.14" ry="8.98"/>
+        <ellipse class="cls-11" cx="100.15" cy="167.31" rx="7.14" ry="8.98"/>
+        <ellipse class="cls-15" cx="100.15" cy="167.64" rx="3.47" ry="5.22"/>
+        <ellipse class="cls-15" cx="124.37" cy="167.64" rx="3.47" ry="5.22"/>
+        <ellipse class="cls-11" cx="124.37" cy="167.64" rx="2.46" ry="3.63"/>
+        <ellipse class="cls-11" cx="100.15" cy="167.31" rx="2.46" ry="3.63"/>
+        <ellipse class="cls-18" cx="136.14" cy="153.32" rx="5.8" ry="7.43"/>
+        <ellipse class="cls-18" cx="88.29" cy="154.83" rx="5.8" ry="7.43"/>
+        <path class="cls-30" d="m112.32,178.16v4.85s-3.74,3.58-5.86,0"/>
+        <path class="cls-30" d="m112.82,178.16v4.85s3.74,3.58,5.86,0"/>
+        <circle class="cls-36" cx="124.41" cy="167.35" r=".84"/>
+        <circle class="cls-36" cx="100.11" cy="166.52" r=".84"/>
+      </g>
+      <text class="cls-35" transform="translate(67.18 221.37)"><tspan class="cls-46" x="0" y="0">L</tspan><tspan x="11.48" y="0">o</tspan><tspan class="cls-49" x="25.25" y="0">r</tspan><tspan class="cls-1" x="33.2" y="0">en</tspan><tspan class="cls-44" x="59.68" y="0">z</tspan><tspan x="70.24" y="0">o</tspan></text>
+    </g>
+  </g>
+</svg>

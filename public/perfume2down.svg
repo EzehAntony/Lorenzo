@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.23 316.28">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-4, .cls-8, .cls-5 {
+        stroke: #010101;
+      }
+
+      .cls-2, .cls-3, .cls-8, .cls-5, .cls-7 {
+        stroke-width: 1.05px;
+      }
+
+      .cls-2, .cls-3, .cls-7 {
+        stroke: #fff;
+      }
+
+      .cls-3, .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        stroke-width: 1.33px;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8, .cls-7 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        fill: #010101;
+      }
+
+      .cls-6 {
+        stroke: #231f20;
+        stroke-width: 4.78px;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        fill: #231f20;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 17.31px;
+      }
+
+      .cls-14 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="perfume_1" data-name="perfume 1">
+    <g id="perfume_2" data-name="perfume 2">
+      <rect class="cls-1" x="42.89" y="2.5" width="22.08" height="16.49"/>
+      <rect class="cls-1" x="31.2" y="16.8" width="45.46" height="30.98"/>
+      <rect class="cls-6" x="2.39" y="32.29" width="101.45" height="281.6" rx="14.14" ry="14.14"/>
+      <ellipse class="cls-5" cx="80.18" cy="131.54" rx="9.17" ry="10.45"/>
+      <ellipse class="cls-5" cx="25.55" cy="132.87" rx="9.17" ry="10.45"/>
+      <ellipse class="cls-4" cx="53.67" cy="152.3" rx="31.78" ry="30.16"/>
+      <ellipse class="cls-5" cx="66.69" cy="147.55" rx="8.12" ry="10.21"/>
+      <ellipse class="cls-5" cx="39.51" cy="147.55" rx="8.12" ry="10.21"/>
+      <ellipse class="cls-2" cx="39.51" cy="147.93" rx="3.94" ry="5.94"/>
+      <ellipse class="cls-2" cx="67.07" cy="147.93" rx="3.94" ry="5.94"/>
+      <ellipse class="cls-5" cx="67.07" cy="147.93" rx="2.8" ry="4.13"/>
+      <ellipse class="cls-5" cx="39.51" cy="147.55" rx="2.8" ry="4.13"/>
+      <ellipse class="cls-3" cx="80.46" cy="131.64" rx="6.6" ry="8.46"/>
+      <ellipse class="cls-3" cx="26.02" cy="133.35" rx="6.6" ry="8.46"/>
+      <path class="cls-8" d="m53.37,159.9v5.52s-4.26,4.07-6.66,0"/>
+      <path class="cls-8" d="m53.93,159.9v5.52s4.26,4.07,6.66,0"/>
+      <circle class="cls-7" cx="67.11" cy="147.6" r=".95"/>
+      <circle class="cls-7" cx="39.47" cy="146.65" r=".95"/>
+      <text class="cls-13" transform="translate(25.99 207.26)"><tspan class="cls-14" x="0" y="0">L</tspan><tspan class="cls-10" x="7.93" y="0">o</tspan><tspan class="cls-9" x="17.43" y="0">r</tspan><tspan class="cls-11" x="22.92" y="0">en</tspan><tspan class="cls-12" x="41.2" y="0">z</tspan><tspan x="48.49" y="0">o</tspan></text>
+    </g>
+  </g>
+</svg>
