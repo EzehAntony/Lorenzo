@@ -14,7 +14,7 @@ function Home() {
         scrollTrigger: {
             trigger: "#images",
             start: "top 50px",
-            end: "top -80px",
+            end: "top -50px",
             scrub: 1,
 
         }
