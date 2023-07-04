@@ -8,10 +8,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        "-sm": { max: "639px" },
-        "-md": { max: "867px" },
-        "-lg": { max: "1023px" },
+      backgroundImage: {
+        'gradient-radal': "radial-gradient(circle, rgba(254,244,192,1) 0%, rgba(254,240,200,1) 26%, rgba(254,232,200,1) 100%)"
       }
     },
   },
