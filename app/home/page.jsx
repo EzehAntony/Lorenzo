@@ -4,7 +4,7 @@ import Hero from "../../components/Hero"
 
 function Home() {
     return (
-        <div>
+        <div className='min-h-[2000px]'>
             <Hero />
         </div>
     )
