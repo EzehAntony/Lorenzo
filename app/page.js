@@ -22,10 +22,10 @@ export default function Splash() {
     return () => ctx.revert()
   }, [])
   return (
-    <main ref={ref} id="splash" className="bg-[#FEE8C8] h-screen hidden flex-col justify-center items-center ">
+    <main ref={ref} id="splash" className="bg-[#F6F1EB] h-screen hidden flex-col justify-center items-center ">
       <h1 className="text-5xl font-bold pb-5 text-[black]">Lorenzo</h1>
       <img src="/lorenzo.svg" className="w-24" alt="" />
-      <button onClick={() => router.push("/home")} className="bg-black w-[90%] justify-center items-center px-5 py-5 flex absolute bottom-5 text-white max-w-[400px] text-lgfont-semibold"><h3 className=" mr-2 ">Start shopping</h3> <i class="bi bi-cart-fill" className="text-white text-lg"></i></button>
+      <button onClick={() => router.push("/home")} className="bg-black w-[90%] justify-center items-center px-5 py-5 flex absolute bottom-5 text-white max-w-[400px] text-lg font-semibold hover:bg-[#FEE8C8]"><h3 className=" mr-2 ">Start shopping</h3> <i class="bi bi-cart-fill" className="text-white text-lg"></i></button>
     </main>
   )
 }
