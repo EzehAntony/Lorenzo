@@ -7,24 +7,21 @@ import {
   Send,
 } from "@mui/icons-material";
 import { Button, IconButton } from "@mui/material";
-import { useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import Cart from "../components/Cart";
 
 const Hero = () => {
   gsap.registerPlugin(ScrollTrigger);
   const ref = useRef(null);
   const g = gsap.utils.selector(ref);
-  const t1 = gsap.timeline({
-    scrollTrigger: {
-      trigger: "header",
-      start: "top -10%",
-      scrub: 1,
-    },
-  });
+  const t1 = gsap.timeline({});
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
+      gsap.to("#hero", { visibility: "visible" });
+
       //header animation
       gsap.to("header", {
         background: "#FEE8C8",
@@ -36,42 +33,57 @@ const Hero = () => {
         },
       });
 
-      //perfume animation
-      t1.to("#p1 img", { yPercent: -40, opacity: 0 })
-        .to("#p2 img:nth-of-type(1)", {
+      //hero animation
+      t1.from("#p1 img", 0.5, { yPercent: -40, opacity: 0 })
+        .from("#p3 img", 0.5, { xPercent: -40, opacity: 0 }, "<80%")
+        .from("#p2 img:nth-of-type(1)", 0.5, { yPercent: -40, opacity: 0 })
+        .from("#p2 img:nth-of-type(2)", 0.5, { y: 40, opacity: 0 }, "<30%")
+        .from("#p4 img:nth-of-type(1)", 0.5, {
+          scale: 2,
           yPercent: -40,
           opacity: 0,
         })
-        .to("#p2 img:nth-of-type(2)", { y: 40, opacity: 0 }, "<-2")
-        .to("#p3 img", { xPercent: -40, opacity: 0 })
-        .to("#p4 img:nth-of-type(1)", { yPercent: -40, opacity: 0 })
-        .to("#p4 img:nth-of-type(2)", {
-          yPercent: -40,
-          ease: "bounce",
+        .from(
+          "#p4 img:nth-of-type(2)",
+          0.5,
+          {
+            yPercent: -40,
+            ease: "bounce",
+            opacity: 0,
+          },
+          "<50%"
+        )
+        .from("main #text", 0.5, { yPercent: -40, opacity: 0, ease: "bounce" })
+        .from("main button", 0.5, {
+          yPercent: 70,
           opacity: 0,
         });
-
-      /*       gsap.to("main #text", { xPercent: -40, opacity: 0 }).to("main button", {
-        yPercent: 40,
-        opacity: 0,
-      }); */
     });
 
     return () => ctx.revert();
   }, []);
 
+  const [cart, setCart] = useState(false);
+
   return (
     <div
       ref={ref}
-      className="min-h-[400px] md:h-[80vh] lg:h-[100vh] px-4  pt-[80px] lg:px-20 bg-gradient-radal flex relative justify-center items-center"
+      id="hero"
+      className="invisible min-h-[400px] md:h-[80vh] lg:h-[100vh] px-4  pt-[80px] lg:px-20 bg-gradient-radal flex relative justify-center items-center"
     >
-      <header className="fixed z-50 top-0 w-screen left-0 h-[60px] px-4 lg:px-20 flex justify-between items-center">
+      <header className="fixed z-30 top-0 w-screen left-0 h-[60px] px-4 lg:px-20 flex justify-between items-center">
         <div>
           <h2 className="text-lg font-bold ">Lorenzo</h2>
         </div>
 
         <div>
-          <IconButton className="relative mr-2">
+          <IconButton
+            onClick={(e) => {
+              console.log(cart);
+              setCart(true);
+            }}
+            className="relative mr-5"
+          >
             <p className="absolute -top-[4px] -right-[0px] text-sm font-extrabold bg-[#fff] py-[1px] px-1 rounded-md">
               20
             </p>
@@ -82,6 +94,8 @@ const Hero = () => {
           </IconButton>
         </div>
       </header>
+
+      <Cart setting={cart} />
 
       <main className="flex flex-col justify-around lg:flex-row lg:justify-between ">
         <div className="order-2  w-[100%] flex flex-col justify-center items-center lg:order-1 lg:items-start">
