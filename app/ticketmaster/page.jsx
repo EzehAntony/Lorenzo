@@ -12,31 +12,46 @@ function Ticket() {
         <div className="w-[97%] bg-gray-500 h-[270px] before:content-[''] before:w-[97%] before:h-[100px] bg-gradient-to-b from-white to-[#1F1F1F] before:absolute before:bottom-0 before:left-[1.5%] before:bg-opacity-30 before:bg- flex justify-center items-center ">
           <img
             src="/ticket/taylor.png"
-            className="  w-[70%] max-w-[270px] "
+            className="  w-[80%] max-w-[300px] "
             alt=""
           />
         </div>
+
+        <div className="text w-[97%] px-2 absolute bottom-0 py-2">
+          <h1 className="text-xl  text-white drop-shadow-[2px_2px_5px_black] font-bold">
+            Taylor Swift | The Eras Tour
+          </h1>
+          <p className="text-sm text-white capitalize font-semibold drop-shadow-[2px_2px_5px_black] ">
+            sat, July 22, 6:30pm . Lumen Field
+          </p>
+          <div className="flex text-white  items-center">
+            <i className="bi bi-ticket-fill mr-2 text-[10px] -rotate-45"></i>
+            <p className="text-sm text-white drop-shadow-[2px_2px_5px_black] capitalize font-semibold">
+              2 tickets
+            </p>
+          </div>
+        </div>
       </div>
 
-      <footer className="absolute bottom-0 w-screen h-[60px] bg-[#fff] flex justify-around items-center ">
+      <footer className="absolute py-8 bottom-0 w-screen h-[60px] bg-[#fff] flex justify-around items-center ">
         <div className="flex flex-col justify-center items-center">
-          <img src="/ticket/discover.svg" className="w-7 mb-1" alt="" />
+          <img src="/ticket/discover.svg" className="w-7 mb-[2px] " alt="" />
           <p className="text-[10px]  text-[#AAA9AF] ">Discover</p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <img src="/ticket/heart.svg" className="w-7 mb-1" alt="" />
+          <img src="/ticket/heart.svg" className="w-7 mb-[2px] " alt="" />
           <p className="text-[10px]  text-[#AAA9AF] ">For You</p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <img src="/ticket/ticket.svg" className="w-7 mb-1" alt="" />
+          <img src="/ticket/ticket.svg" className="w-7 mb-[2px] " alt="" />
           <p className="text-[10px]  text-[#AAA9AF] ">My Events</p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <img src="/ticket/sell.svg" className="w-7 mb-1" alt="" />
+          <img src="/ticket/sell.svg" className="w-7 mb-[2px] " alt="" />
           <p className="text-[10px]  text-[#AAA9AF] ">Sell</p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <img src="/ticket/profile.svg" className="w-7 mb-1" alt="" />
+          <img src="/ticket/profile.svg" className="w-7 mb-[2px] " alt="" />
           <p className="text-[10px]  text-[#AAA9AF] ">My Account</p>
         </div>
       </footer>
