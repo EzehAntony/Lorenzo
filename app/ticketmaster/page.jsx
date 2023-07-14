@@ -3,10 +3,6 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export const metadata = {
-  themeColor: "#1F2229",
-  title: "ticket Master by Nazville",
-};
 
 function Ticket() {
   const router = useRouter();
