@@ -1,9 +1,25 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+
 export const metadata = {
   themeColor: "#1F2229",
   title: "ticket Master by Nazville",
 };
 
 function Ticket() {
+  const router = useRouter();
+
+  const [data, setData] = useState({
+    week: "sat",
+    month: "july",
+    day: 22,
+    time: "6:30pm",
+    location: "Lumen Field",
+    ticket: 6,
+  });
+
   return (
     <div>
       <header className="h-[70px] bg-[#1F2229] w-screen text-white flex justify-around  items-center capitalize ">
@@ -13,7 +29,10 @@ function Ticket() {
         <h3>help </h3>
       </header>
 
-      <div className="content w-screen relative bg-[#fff] flex justify-center">
+      <div
+        onClick={() => router.push("/ticketmaster/tickets")}
+        className="content w-screen relative bg-[#fff] flex justify-center"
+      >
         <div className="w-[97%] bg-gray-500 h-[270px] before:content-[''] before:w-[97%] before:h-[100px] bg-gradient-to-b from-white to-[#1F1F1F] before:absolute before:bottom-0 before:left-[1.5%] before:bg-opacity-30 before:bg- flex justify-center items-center ">
           <img
             src="/ticket/taylor.png"
@@ -27,12 +46,12 @@ function Ticket() {
             Taylor Swift | The Eras Tour
           </h1>
           <p className="text-sm text-white capitalize font-semibold drop-shadow-[2px_2px_5px_black] ">
-            sat, July 22, 6:30pm . Lumen Field
+            {data.day}, {data.month} {data.day}, {data.time} . {data.location}
           </p>
           <div className="flex text-white  items-center">
             <i className="bi bi-ticket-fill mr-2 text-[10px] -rotate-45"></i>
             <p className="text-sm text-white drop-shadow-[2px_2px_5px_black] capitalize font-semibold">
-              2 tickets
+              {data.ticket} tickets
             </p>
           </div>
         </div>
