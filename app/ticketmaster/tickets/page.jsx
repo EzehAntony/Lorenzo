@@ -5,10 +5,6 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-export const metadata = {
-  themeColor: "#1F2229",
-  title: "ticket Master by Nazville",
-};
 
 function Tickets() {
   const router = useRouter();
