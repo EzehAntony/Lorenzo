@@ -309,22 +309,22 @@ function Tickets() {
             </div>
 
             <div className="w-full flex justify-center rounded-b-xl items-center border-x-[1px] border-black flex-col">
-              <p className="w-full text-center my-4 text-sm font-bold">
+              <p className="w-full text-center my-5 text-sm font-bold">
                 SOUTH-GATE
               </p>
 
-              <div className="h-[50px] w-[70%] flex justify-center items-center text-sm font-bold bg-black rounded-xl my-4">
+              <div className="h-[50px] w-[70%] flex justify-center items-center text-sm font-bold bg-black rounded-xl my-5">
                 <p className="text-white">Add to Apple Wallet</p>
               </div>
 
-              <div className="w-full flex px-3 font-semibold justify-between py-4 text-[#1170F2] text-sm ">
+              <div className="w-full flex p-5 font-semibold justify-between py-4 text-[#1170F2] text-sm ">
                 <p>View Barcode</p>
                 <p>Ticket Details</p>
               </div>
 
-              <div className="bg-[#0957C4] w-full flex py-3 rounded-b-xl justify-center items-center ">
+              <div className="bg-[#0957C4] w-full flex py-2 rounded-b-xl justify-center items-center ">
                 <img src="/ticket/ticket.svg" className="w-[20px]" alt="" />
-                <p className="text-white font-bold py-3 text-sm">ticketmaster.verified</p>
+                <p className="text-white font-bold text-sm">ticketmaster.verified</p>
               </div>
             </div>
           </SwiperSlide>
