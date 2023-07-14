@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../globals.css";
 import { Inter, Lato, Nunito } from "next/font/google";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
