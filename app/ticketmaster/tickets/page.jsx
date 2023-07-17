@@ -94,9 +94,13 @@ function Tickets() {
               </div>
             </div>
           </SwiperSlide>
-
         </div>
       </Swiper>
+
+      <div className="flex mt-4 w-screen justify-center items-center ">
+        <button className="w-[48%] bg-[#0361DD] py-4 rounded-md">Transfer</button>
+        <button className="w-[48%] bg-[#F4F3F8] text-white py-4 rounded-md">Sell</button>
+      </div>
 
       <footer className="absolute py-8 bottom-0 w-screen h-[60px] bg-[#fff] flex justify-around items-center ">
         <div className="flex flex-col justify-center items-center">
