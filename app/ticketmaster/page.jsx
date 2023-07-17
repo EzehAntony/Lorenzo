@@ -42,7 +42,7 @@ function Ticket() {
             Taylor Swift | The Eras Tour
           </h1>
           <p className="text-sm text-white capitalize font-semibold drop-shadow-[2px_2px_5px_black] ">
-            {data.day}, {data.month} {data.day}, {data.time} . {data.location}
+            {data.week}, {data.month} {data.day}, {data.time} . {data.location}
           </p>
           <div className="flex text-white  items-center">
             <i className="bi bi-ticket-fill mr-2 text-[10px] -rotate-45"></i>
