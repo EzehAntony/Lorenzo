@@ -64,7 +64,7 @@ function Tickets() {
                   Taylor Swift | The Eras Tour
                 </h1>
                 <p className="text-sm text-white capitalize font-semibold drop-shadow-[2px_2px_5px_black] ">
-                  {data.day}, {data.month} {data.day}, {data.time} .{" "}
+                  {data.week}, {data.month} {data.day}, {data.time} .{" "}
                   {data.location}
                 </p>
               </div>
