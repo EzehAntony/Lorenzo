@@ -106,10 +106,8 @@ const Hero = () => {
             Get a fragrance that suits your personality
           </h3>
           <Button
-            endIcon={<Send className="fill-[#FEE8C8]" />}
+            endIcon={<ShoppingCart className="fill-[#FEE8C8]" />}
             className="w-[100%] lg:w-[70%] mb-4 bg-[#444444] fill-[#444444] py-2"
-            color="primary"
-            variant="contained"
           >
             <p className="text-white text-sm font-semibold py-1  lg:py-2 ">
               Get Now
