@@ -97,11 +97,11 @@ const Hero = () => {
 
       <Cart setting={cart} />
 
-      <main className="flex flex-col justify-around lg:flex-row lg:justify-between ">
+      <main className="flex flex-col justify-around lg:flex-row lg:justify-between  ">
         <div className="order-2  w-[100%] flex flex-col justify-center items-center lg:order-1 lg:items-start">
           <h3
             id="text"
-            className="  text-3xl font-bold text-center max-w-[85%] my-4 lg:text-6xl lg:text-left lg:max-w-none lg:mb-8"
+            className="  text-3xl font-bold text-center max-w-[95%] my-4 lg:text-6xl lg:text-left lg:max-w-none lg:mb-8"
           >
             Get a fragrance that suits your personality
           </h3>
