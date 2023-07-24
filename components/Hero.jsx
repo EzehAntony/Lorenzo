@@ -105,14 +105,12 @@ const Hero = () => {
           >
             Get a fragrance that suits your personality
           </h3>
-          <Button
-            endIcon={<ShoppingCart className="fill-[#FEE8C8]" />}
-            className="w-[100%] lg:w-[70%] mb-4 bg-[#444444] fill-[#444444] py-2"
-          >
-            <p className="text-white text-sm font-semibold py-1  lg:py-2 ">
+          <button className="w-[100%] bg-[#ff9617] flex justify-center items-center py-2 my-2 rounded-sm ">
+            <p className="text-white text-sm font-semibold py-1  lg:py-2 mr-2">
               Get Now
             </p>
-          </Button>
+            <ShoppingCart />
+          </button>
         </div>
 
         <div
