@@ -69,7 +69,7 @@ const Hero = () => {
     <div
       ref={ref}
       id="hero"
-      className="w-full invisible min-h-[400px] md:min-h-[80vh] lg:h-[100vh] pt-[80px] lg:px-20 bg-gradient-radal flex flex-row relative justify-center items-center"
+      className="w-full invisible min-h-[400px] md:min-h-[80vh] lg:h-[100vh] pt-[80px] lg:px-20 bg-gradient-radal flex flex-col relative justify-center items-center"
     >
       <header className="fixed z-30 top-0 w-screen left-0 h-[60px] px-4 lg:px-20 flex justify-between items-center">
         <div>
@@ -97,7 +97,7 @@ const Hero = () => {
 
       <Cart setting={cart} />
 
-      <main className="w-full flex flex-col  justify-center lg:flex-row lg:justify-between ">
+      <main className="w-full flex flex-col  justify-center lg:flex-row lg:justify-between md:items-center ">
         <div className="order-2  w-full flex flex-col justify-center items-center lg:order-1 lg:items-start">
           <h3
             id="text"
