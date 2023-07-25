@@ -69,7 +69,7 @@ const Hero = () => {
     <div
       ref={ref}
       id="hero"
-      className="w-full invisible min-h-[400px] md:min-h-[80vh] lg:h-[100vh] pt-[80px] lg:px-20 bg-gradient-radal flex relative justify-center items-center"
+      className="w-full invisible min-h-[400px] md:min-h-[80vh] lg:h-[100vh] pt-[80px] lg:px-20 bg-gradient-radal flex flex-row relative justify-center items-center"
     >
       <header className="fixed z-30 top-0 w-screen left-0 h-[60px] px-4 lg:px-20 flex justify-between items-center">
         <div>
