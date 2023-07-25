@@ -101,10 +101,14 @@ const Hero = () => {
         <div className="order-2  w-full flex flex-col justify-center items-center lg:order-1 lg:items-start">
           <h3
             id="text"
-            className="  text-3xl font-bold text-center max-w-[100%] my-4 lg:text-6xl lg:text-left lg:max-w-none lg:mb-8"
+            className="  text-3xl font-bold max-w-[100%] my-4 lg:text-6xl text-left lg:max-w-none lg:mb-8"
           >
             Get a fragrance that suits your personality
           </h3>
+          <p className="text-[14px]   max-w-[100%] my-1 lg:text-2xl text-left lg:max-w-none lg:mb-8">
+            Avilable premium-quality men's and women's perfumes, trusted by well
+            known brands, with proven quality, refresh your day.
+          </p>
           <button className="w-full bg-[#ff9617] flex justify-center items-center py-2 my-2 rounded-sm ">
             <p className="text-[#FDEAC7] text-md font-bold py-1  lg:py-2 mr-2">
               Get Now
