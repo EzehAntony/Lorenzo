@@ -97,7 +97,7 @@ const Hero = () => {
 
       <Cart setting={cart} />
 
-      <main className="w-full flex flex-col mx-4 justify-center lg:flex-row lg:justify-between ">
+      <main className="w-full flex flex-col  justify-center lg:flex-row lg:justify-between ">
         <div className="order-2  w-full flex flex-col justify-center items-center lg:order-1 lg:items-start">
           <h3
             id="text"
