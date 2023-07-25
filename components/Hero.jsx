@@ -69,7 +69,7 @@ const Hero = () => {
     <div
       ref={ref}
       id="hero"
-      className="invisible min-h-[400px] md:h-[80vh] lg:h-[100vh] px-4  pt-[80px] lg:px-20 bg-gradient-radal flex relative justify-center items-center"
+      className="w-full invisible min-h-[400px] md:h-[80vh] lg:h-[100vh] px-4  pt-[80px] lg:px-20 bg-gradient-radal flex relative justify-center items-center"
     >
       <header className="fixed z-30 top-0 w-screen left-0 h-[60px] px-4 lg:px-20 flex justify-between items-center">
         <div>
@@ -97,7 +97,7 @@ const Hero = () => {
 
       <Cart setting={cart} />
 
-      <main className="flex flex-col justify-around lg:flex-row lg:justify-between  ">
+      <main className="w-full flex flex-col justify-center lg:flex-row lg:justify-between ">
         <div className="order-2  w-[100%] flex flex-col justify-center items-center lg:order-1 lg:items-start">
           <h3
             id="text"
@@ -106,7 +106,7 @@ const Hero = () => {
             Get a fragrance that suits your personality
           </h3>
           <button className="w-[100%] bg-[#ff9617] flex justify-center items-center py-2 my-2 rounded-sm ">
-            <p className="text-white text-sm font-semibold py-1  lg:py-2 mr-2">
+            <p className="text-white text-md font-semibold py-1  lg:py-2 mr-2">
               Get Now
             </p>
             <ShoppingCart />
