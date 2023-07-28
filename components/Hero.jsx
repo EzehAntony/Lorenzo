@@ -64,7 +64,7 @@ const Hero = () => {
         .from("main .smalltext", 0.5, { opacity: 0, xPercent: -40 });
     });
 
-    gsap.to("#arrowDown", { y: 40, repeatDelay: .8, repeat: -1, ease: "bounce" });
+    gsap.to("#arrowDown", { y: 40, repeatDelay: 0.8, repeat: -1, yoyo: true });
     return () => ctx.revert();
   }, []);
 
@@ -106,7 +106,7 @@ const Hero = () => {
         <div className="order-2  w-full flex flex-col justify-center items-center lg:order-1 lg:items-start">
           <h3
             id="text"
-            className="  text-3xl font-bold max-w-[100%] my-4 lg:text-6xl text-left lg:max-w-none lg:mb-8"
+            className=" capitalize text-3xl font-bold max-w-[100%] mt-8 my-4 lg:text-6xl text-left lg:max-w-none lg:mb-8"
           >
             <span className="text-[#ff9617] ">Get</span> a fragrance that suits
             your personality
