@@ -5,6 +5,9 @@ import {
   MenuRounded,
   ShoppingCart,
   Send,
+  DoubleArrow,
+  KeyboardArrowDown,
+  KeyboardDoubleArrowDown,
 } from "@mui/icons-material";
 import { Button, IconButton } from "@mui/material";
 import { useLayoutEffect, useRef, useState } from "react";
@@ -57,9 +60,11 @@ const Hero = () => {
         .from("main button", 0.5, {
           yPercent: 70,
           opacity: 0,
-        });
+        })
+        .from("main .smalltext", 0.5, { opacity: 0, xPercent: -40 });
     });
 
+    gsap.to("#arrowDown", { y: 40, repeatDelay: .8, repeat: -1, ease: "bounce" });
     return () => ctx.revert();
   }, []);
 
@@ -69,7 +74,7 @@ const Hero = () => {
     <div
       ref={ref}
       id="hero"
-      className="w-full invisible min-h-[400px] md:min-h-[80vh] lg:h-[100vh] pt-[80px] lg:px-20 bg-gradient-radal flex flex-col relative justify-center items-center"
+      className="w-full invisible  min-h-[400px] md:min-h-[80vh] lg:h-[100vh] pt-[80px] lg:px-20 bg-gradient-radal flex flex-col relative justify-center items-center"
     >
       <header className="fixed z-30 top-0 w-screen left-0 h-[60px] px-4 lg:px-20 flex justify-between items-center">
         <div>
@@ -103,13 +108,14 @@ const Hero = () => {
             id="text"
             className="  text-3xl font-bold max-w-[100%] my-4 lg:text-6xl text-left lg:max-w-none lg:mb-8"
           >
-            Get a fragrance that suits your personality
+            <span className="text-[#ff9617] ">Get</span> a fragrance that suits
+            your personality
           </h3>
-          <p className="text-[14px]   max-w-[100%] my-1 lg:text-2xl text-left lg:max-w-none lg:mb-8">
+          <p className="smalltext text-[14px]   max-w-[100%] my-1 lg:text-2xl text-left lg:max-w-none lg:mb-8">
             Avilable premium-quality men's and women's perfumes, trusted by well
             known brands, with proven quality, refresh your day.
           </p>
-          <button className="w-full bg-[#ff9617] flex justify-center items-center py-2 my-2 rounded-sm ">
+          <button className="w-full mb-4 bg-[#ff9617] flex justify-center items-center py-2 my-2 rounded-sm ">
             <p className="text-[#FDEAC7] text-md font-bold py-1  lg:py-2 mr-2">
               Get Now
             </p>
@@ -160,6 +166,10 @@ const Hero = () => {
           </div>
         </div>
       </main>
+      <KeyboardDoubleArrowDown
+        id="arrowDown"
+        className="mt-4 w-8 lg:w-[400px] lg:mt-10 "
+      />
     </div>
   );
 };
