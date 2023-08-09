@@ -13,6 +13,7 @@ import { Button, IconButton } from "@mui/material";
 import { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import Header from "../components/Header";
 import Cart from "../components/Cart";
 
 const Hero = () => {
@@ -76,29 +77,8 @@ const Hero = () => {
       id="hero"
       className="w-full invisible  min-h-[400px] md:min-h-[80vh] lg:h-[100vh] pt-[80px] lg:px-20 bg-gradient-radal flex flex-col relative justify-center items-center"
     >
-      <header className="fixed z-30 top-0 w-screen left-0 h-[60px] px-4 lg:px-20 flex justify-between items-center">
-        <div>
-          <h2 className="text-lg font-bold ">Lorenzo</h2>
-        </div>
-
-        <div>
-          <IconButton
-            onClick={(e) => {
-              console.log(cart);
-              setCart(true);
-            }}
-            className="relative mr-5"
-          >
-            <p className="absolute -top-[4px] -right-[0px] text-sm font-extrabold bg-[#fff] py-[1px] px-1 rounded-md">
-              20
-            </p>
-            <ShoppingCart />
-          </IconButton>
-          <IconButton>
-            <MenuRounded />
-          </IconButton>
-        </div>
-      </header>
+      {/* Header */}
+      <Header />
 
       <Cart setting={cart} />
 

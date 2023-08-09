@@ -2,7 +2,6 @@
 
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
-
 function Categories({ img, text }) {
   const ref = useRef(null);
   const g = gsap.utils.selector(ref);
