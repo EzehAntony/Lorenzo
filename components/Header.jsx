@@ -18,7 +18,7 @@ function Header() {
           }}
           className="relative mr-5"
         >
-          <p className="absolute -top-[4px] -right-[0px] text-sm font-extrabold bg-[#fff] py-[1px] px-1 rounded-md">
+          <p className="absolute -top-[4px] -right-[0px] text-sm font-semibold text-white bg-[#029094] px-[0.25rem] rounded-md">
             20
           </p>
           <ShoppingCart />

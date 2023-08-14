@@ -1,20 +1,12 @@
 "use client";
 
-import {
-  MenuOpenRounded,
-  MenuRounded,
-  ShoppingCart,
-  Send,
-  DoubleArrow,
-  KeyboardArrowDown,
-  KeyboardDoubleArrowDown,
-} from "@mui/icons-material";
+import { ShoppingCart, KeyboardDoubleArrowDown } from "@mui/icons-material";
 import { Button, IconButton } from "@mui/material";
-import { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Header from "../components/Header";
 import Cart from "../components/Cart";
+import { useRef, useLayoutEffect, useState } from "react";
 
 const Hero = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -88,14 +80,14 @@ const Hero = () => {
             id="text"
             className="  text-3xl font-bold max-w-[100%] my-4 lg:text-6xl text-left lg:max-w-none lg:mb-8"
           >
-            <span className="text-[#ff9617] ">Get</span> a fragrance that suits
+            <span className="text-[#029094] ">Get</span> a fragrance that suits
             your personality
           </h3>
           <p className="smalltext text-[14px]   max-w-[100%] my-1 lg:text-2xl text-left lg:max-w-none lg:mb-8">
             Avilable premium-quality men's and women's perfumes, trusted by well
             known brands, with proven quality, refresh your day.
           </p>
-          <button className="w-full mb-4 bg-[#ff9617] flex justify-center items-center py-2 my-2 rounded-sm ">
+          <button className="w-full mb-4 bg-[#029094] flex justify-center items-center py-2 my-2 rounded-sm ">
             <p className="text-[#FDEAC7] text-md font-bold py-1  lg:py-2 mr-2">
               Get Now
             </p>

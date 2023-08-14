@@ -35,7 +35,7 @@ export default function Splash() {
       <img src="/lorenzo.svg" className="w-24" alt="" />
       <button
         onClick={() => router.push("/home")}
-        className="bg-black w-[90%] justify-center items-center px-5 py-5 flex absolute bottom-5 text-white max-w-[400px] text-lg font-semibold hover:bg-[#FEE8C8]"
+        className="bg-[#029094] w-[90%] justify-center items-center px-5 py-5 flex absolute bottom-5 text-white max-w-[400px] text-lg font-semibold hover:bg-[#FEE8C8]"
       >
         <h3 className=" mr-2 ">Start shopping</h3>{" "}
         <i class="bi bi-cart-fill" className="text-white text-lg"></i>
