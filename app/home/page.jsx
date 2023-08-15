@@ -1,8 +1,7 @@
 import React from "react";
 import Hero from "../../components/Hero";
-import Categories from "@/components/Categories";
 import Category from "@/components/Category";
-import MostPurchased from "@/components/mostPurchased";
+import MostPurchased from "@/components/MostPurchased";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
 
